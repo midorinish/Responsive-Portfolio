@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    background-color: #4aaaa5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Muli', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, serif;
+    width: 100vw;
+    height: 5rem;
+    margin: 2pt;
+    border: 2px solid #cccccc;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 5rem;
+    margin: 1pt;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 15pt;
+    font-family: 'Georgia', Times, serif;
+    border:2px solid #cccccc;
+    border-radius: 7px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: #4aaaa5;
+    color: white;
+    width: 25rem;
+    height: 5rem;
+    margin: 1pt;
+    border:2px solid #cccccc;
+    border-radius: 7px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 15pt;
+    font-family: 'Georgia', Times, serif;
+   
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: baseline;
+    align-self: flex end;
+    font-family: 'Georgia', Times, serif;
+}
+
+li a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: palegreen;
+  }
+
+li a:active {
+    background-color: lightcoral;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+    
+}
+
+#flexContainer {
+    width: 60vw;
+    height: 60vh;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px solid #cccccc;
+    border-radius: 7px;
+    margin: 2.5rem;
+    padding: 2.5rem;
+}
+
+p {
+    color: #4aaaa5;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    background-color: #ffffff;
+    color: black;
+    width: 100vw;
+    height: 3rem;
+    border: 2px solid #cccccc;
+}
+
+
+/*PORTFOLIO*/
+
+#portfolioContainer {
+    width: 60vw;
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border:2px solid #cccccc;
+    margin: 2.5rem;
+    padding: 2.5rem;
+}
+
+#imageContainer1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: row;
+   
+    margin: 2.5rem;
+    padding: 2.5rem;
+
+}
+
+img:hover {
+    background-color: #4aaaa5;
+}
+
+
+/*CONTACT*/
+
+#formContainer {
+
+    width: 50%;
+    padding: 12px;
+    border: 2px solid #cccccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 75px;
+    margin-bottom: 15rem;
+    font-size: 20px;
+
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+textarea {
+
+    width: 
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    body {
+      background-color: pink;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: greenyellow;
+    }
+  }
